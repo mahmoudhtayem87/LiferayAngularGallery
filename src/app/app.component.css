@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+}
+.grid  img {
+  display: block;
+  height: 400px;
+  object-fit: cover;
+  width: 400px;
+}
+
+
+.grid-item {
+  height: 0;
+  padding-bottom: 70% !important;
+  position: relative;
+}
+.grid-item img {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
